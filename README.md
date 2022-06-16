@@ -1,8 +1,22 @@
 # Workshop
 
-## Get BigQuery SA
+ virtualenv venv
 
-Create a file named `ogc-workshop-sa.json` with the content provided separately.
+ . venv/bin/activate
+
+## Install dependencies
+
+Using pip:
+```bash
+pip install -r requirements.txt
+```
+
+Or use poetry:
+```bash
+poetry install
+```
+
+## Get BigQuery SA
 
 Set the env var:
 ```
@@ -13,7 +27,7 @@ export GOOGLE_APPLICATION_CREDENTIALS=ogc-workshop-sa.json
 ## Convert to parquet a dataset from BigQuery
 
 ```bash
-poetry run python bigquery_to_parquet.py \
+python bigquery_to_parquet.py \
     --input-query "SELECT * FROM carto-demo-data.demo_tables.retail_stores" \
     --primary-column geom \
     --mode file \
@@ -26,7 +40,7 @@ poetry run python bigquery_to_parquet.py \
 Open jupyter and the notebook ogc_workshop.ipynb:
 
 ```bash
-poetry run jupyter notebook ogc_workshop.ipynb
+jupyter notebook ogc_workshop.ipynb
 ```
 
 ## Let's upload the parquet to BigQuery
@@ -34,7 +48,7 @@ poetry run jupyter notebook ogc_workshop.ipynb
 Open jupyter and the notebook ogc_workshop.ipynb:
 
 ```bash
-poetry run python parquet_to_bigquery.py \
+python parquet_to_bigquery.py \
     --input retail_stores.parquet \
     --output "cartodb-gcp-backend-data-team.ogc_workshop.retail_stores_alasarr"
 ```
