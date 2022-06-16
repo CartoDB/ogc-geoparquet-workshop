@@ -1,24 +1,30 @@
 # Workshop
 
- virtualenv venv
+## Setting up the environment
 
- . venv/bin/activate
+We need to use a Python version >3.6 and <3.11
 
-## Install dependencies
+Install and use virtualenv:
 
-Using pip:
+```bash
+pip install virtualenv
+virtualenv venv
+. venv/bin/activate
+```
+
+Install dependencies with pip:
+
 ```bash
 pip install -r requirements.txt
 ```
 
-Or use poetry:
+If you're a fan of poetry, it's also available:
+
 ```bash
 poetry install
 ```
 
-## Get BigQuery SA
-
-Set the env var:
+Set the env var to operate with Google BigQuery:
 ```
 export GOOGLE_APPLICATION_CREDENTIALS=ogc-workshop-sa.json
 ```
@@ -43,14 +49,14 @@ Open jupyter and the notebook ogc_workshop.ipynb:
 jupyter notebook ogc_workshop.ipynb
 ```
 
-## Let's upload the parquet to BigQuery
+## Upload the parquet to BigQuery
 
 Open jupyter and the notebook ogc_workshop.ipynb:
 
 ```bash
 python parquet_to_bigquery.py \
     --input retail_stores.parquet \
-    --output "cartodb-gcp-backend-data-team.ogc_workshop.retail_stores_alasarr"
+    --output "cartodb-gcp-backend-data-team.ogc_workshop.retail_stores_<YOURNAME>"
 ```
 
 
