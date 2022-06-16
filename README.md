@@ -1,6 +1,6 @@
 # Workshop
 
-## Get BigQuery SA
+## Get BigQuery SA
 
 Create a file named `ogc-workshop-sa.json` with the content provided separately.
 
@@ -21,7 +21,7 @@ poetry run python bigquery_to_parquet.py \
 ```
 
 
-## Visualize the dataset with geopandas
+## Visualize the dataset with geopandas
 
 Open jupyter and the notebook ogc_workshop.ipynb:
 
@@ -29,7 +29,7 @@ Open jupyter and the notebook ogc_workshop.ipynb:
 poetry run jupyter notebook ogc_workshop.ipynb
 ```
 
-## Let's upload the dataset to bigquery
+## Let's upload the parquet to BigQuery
 
 Open jupyter and the notebook ogc_workshop.ipynb:
 
@@ -42,7 +42,7 @@ poetry run python parquet_to_bigquery.py \
 
 ## Create a map using CARTO
 
-### Signup
+### Signup
 
 Go to https://carto.com/signup
 
