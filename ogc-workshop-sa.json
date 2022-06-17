@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "cartodb-gcp-backend-data-team",
+  "private_key_id": "d7de2567cf4635c421173058db73f84dfb60b04b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCWhbybaZ3+DVwA\nYwZTzgWKw8LPyRHBpwsUkfshjyL0qilO3PlcrMMmRV6eoFiOH2R18nhr2+agxffS\nAWuWPqKA7Cp3Qvaw4pvLfufrCH9JMx4mpP/9GJwbvzhL7fwUNQRskthugqQeiNov\n3RjFDMhHq55SR3w5PoE2fMMCQtjU38v4Ri/MPn/17yidoh+fq24KT3n2lnakQZsU\nJccm2Pis5cG9wlYMrnpCJOdJJFKceU4K0fZDIbjh0g69dPtKhe7IYhXhTxA7guyz\na6TGJBDXqlb5QSKy2soB6EPlqGCXGEdAUhEL+9kyxzBEF+rlQfSiKWbdrN10WcbP\nSCT6osOXAgMBAAECggEAPbedM131bX8dy3zO0drmE9UbkiX/9VagKPGINmThsM76\ne/8H8bNWmuEToFffp3qArwnZzWPPZvl1GPMDIYoSCGmNKfRXgQSRW7lvr0N/KUzf\n3nmGCskl7QyVMTDlzIVGiJwXSQyg7XIwgDKYHueUUSqxkkwER9Z0lZpHPSyaioGN\nvai4tVDG2l0RkboKkX2ozMsXEiipmuRf1FAxvV/3mvlGcRd2L77wXi9f5UmkbDFC\nujt93l8vGlMre+YkL+KSlOML+vHnrKC8g7IQTtDUjiqWUew+/T9xC44ZCyFq+ujM\nJTKiJ91JtyITVfth9CiLwzpz2vWwLjO63/4+29kJ0QKBgQDF5j1iZSTZxh/IUKj9\niS2uz6SGlbT1maUUZUmoEEgCZri4dZxVgWID8qQ21Soc23WuCp0qhLU7Qwiyw1IM\n0EiRv7jl8Cc3rn5U9XzlENNp8Vrx6i5Z5EdnyGfqHEpGucEG+bD/LcwiX6QtFukt\nHeM0GtQ9MZiBHMZwUBTESVGPJwKBgQDCtrrMSamWm+vS63mBGAIw3FzhMuqfnMz7\nb+4hostaIoSmhfbSmVvsUDg7dRUGpnEt8OUAxXzIJMw6isRG6PQESEef1amOpW5n\n4nPz7kFrd3MteXuKzAJHIpe/ZvrNSidOjBARdVIHbVvkgRyfNirFC+fnVAcIBqfT\nF18ZAw7uEQKBgQCKh6Uon4ywNRRCcNQaxlAIMqoE2/8UfT0ljdGFqAAATk+4L/wD\njtJB2TRCfe1Azg8OibeC7+q9VStdl4R0G8jw3bhcnUOWorskVcPbxW94lc8H0Nop\narbhW1QCeVM1Nwp8C4Vu22wuE60lMwh+4JEPBEjVnUYX+0CdljEzRe+luQKBgQCv\nM/DdRSL9zArkXNGV4V6HTKGeWUxYlqSzUkH5rhxAXHLzy/MOCMR33K7cgTuMIlQQ\nvIOysADZrpK90oNOMurut4MLRRwuqJixjUg8o5Pl+TOAJaGOgIdELtJQfX8LHcBE\noy8KJoDLAhH/iFWSxRCzAUWIF0nEZQi5nnwJa4ERoQKBgF26+y/kWOjv/YvE90y7\ncQpq/zjWtmxfodT4dZIinz4+4olOFLgixqoMKqh7u1wJYy8sVzlC+8H8j2JE8VpF\nmH4+3EgedSQRI9oZ3ZhDYrx0wFkQV6wzhRNcWg7xEHTSg6tWimzXd4HuEvpwGUI9\nKqLefFUWMNubUGNF0wfQ+tuS\n-----END PRIVATE KEY-----\n",
+  "client_email": "ogc-workshop@cartodb-gcp-backend-data-team.iam.gserviceaccount.com",
+  "client_id": "110630212564644630887",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ogc-workshop%40cartodb-gcp-backend-data-team.iam.gserviceaccount.com"
+}
